@@ -15,8 +15,13 @@ limitations under the License.
 */
 package main
 
-import "github.com/seunggin/cobra-example/cmd"
+import (
+	"fmt"
+
+	"github.com/seunggin/cobra-example/cmd"
+)
 
 func main() {
+	fmt.Println("Cobra-example started")
 	cmd.Execute()
 }
